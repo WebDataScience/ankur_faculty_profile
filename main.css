@@ -113,6 +113,7 @@ td, th {
 	padding-top:6px;
 	padding-bottom:6px;
 	font-size: 13px;
+	min-width: 60px;
 }
 
 table, tr, td {
