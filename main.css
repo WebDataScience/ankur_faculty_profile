@@ -1,0 +1,168 @@
+html {
+	background: url("background_texture.png") repeat scroll 0% 0% transparent;
+	font-family: "Open Sans",sans-serif;
+	color: #3C3C3C;
+	font-size: 14px;//16px;
+}
+
+#maincontent {
+	width: 100%;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	//background-color: white;
+	width: 20%;
+	height: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#main {
+	float: left;
+	background-color: white;
+	width: 71%;
+	height: 100%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	min-height: 550px;
+}
+
+.content {
+	margin: 25px;
+}
+
+.sidebar-content {
+	margin: 10px;
+	font-size: 13px;
+}
+
+#menu {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.menu-item {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	border-left: 1px solid #e4e4e4;//#F1F1F1;
+	float: left;
+	height: 30px;
+}
+
+.menu-item a {
+	text-decoration: none;
+}
+
+.menu-item:hover, a:hover {
+	color: #9e9e9e;
+	cursor: pointer;
+}
+
+div:hover {
+	cursor: default;
+
+}
+
+#home-link {
+	padding-left: 0;
+	border: 0;
+}
+
+h1 {
+	float: left;
+	font-size: 18px;
+	margin-top: 20px;
+	clear: both;
+}
+
+h2 {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	margin-top: 15px;
+	clear: both;
+}
+
+h3 {
+	float: left;
+	font-size: 14px;
+	clear: both;
+	margin-left: -40px;
+	width: 100%;
+
+}
+
+p, ol, li, table {
+	float: left;
+}
+
+li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+td, th {
+	padding: 10px;
+	padding-top:6px;
+	padding-bottom:6px;
+	font-size: 13px;
+}
+
+table, tr, td {
+	border-collapse: collapse;
+}
+
+table {
+	margin-bottom: 30px;
+
+}
+
+#table-header td {
+	font-weight: bold;
+	border-bottom: 2px groove #888888;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#total-funded td {
+	font-weight: bold;
+	border-top: 2px groove #888888;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+#last-row td {
+	padding-bottom: 15px;
+
+}
+
+#ankur-pp {
+	width: 100%;
+	height: auto;
+
+}
+
+#about-me-sidebar-text {
+	//width: 100%;
+	//background-color: white;
+	//margin-top: 10px;
+}
+
+a {
+	color: #3C3C3C;
+	//text-decoration: none;
+}
+
+.publication_title {
+	font-weight: bold;
+}
+
+
